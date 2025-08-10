@@ -20,7 +20,7 @@ export default function WelcomeScreen({ onComplete }: WelcomeScreenProps) {
         ];
 
         // declare timeout 
-        let timeouts: NodeJS.Timeout[] = [];
+        const timeouts: NodeJS.Timeout[] = [];
 
         // delay
         for (let i = 0; i < sequences.length; i++) {
